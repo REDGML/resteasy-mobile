@@ -30,7 +30,7 @@
   <!-- Properties -->
   <properties>
     <version.org.apache.httpcomponents>4.0.3</version.org.apache.httpcomponents>
-    <version.org.codehaus.jackson>1.6.3</version.org.codehaus.jackson>
+    <version.org.fasterxml.jackson>2.8.7</version.org.fasterxml.jackson>
     <version.org.jboss.resteasy.jaxrs>2.2.1.GA</version.org.jboss.resteasy.jaxrs>
   </properties>
   
@@ -43,9 +43,9 @@
       <version>${version.org.apache.httpcomponents}</version>
     </dependency>
     <dependency>
-      <groupId>org.codehaus.jackson</groupId>
-      <artifactId>jackson-jaxrs</artifactId>
-      <version>${version.org.codehaus.jackson}</version>
+      <groupId>com.fasterxml.jackson.jaxrs</groupId>
+      <artifactId>jackson-jaxrs-json-provider</artifactId>
+      <version>${version.org.fasterxml.jackson}</version>
     </dependency>
     <dependency>
       <groupId>org.jboss.resteasy</groupId>

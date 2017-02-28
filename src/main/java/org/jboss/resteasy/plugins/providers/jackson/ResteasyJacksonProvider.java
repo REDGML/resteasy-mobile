@@ -1,6 +1,6 @@
 package org.jboss.resteasy.plugins.providers.jackson;
 
-import org.codehaus.jackson.jaxrs.JacksonJsonProvider;
+import com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider;
 import org.jboss.resteasy.annotations.providers.NoJackson;
 import org.jboss.resteasy.util.FindAnnotation;
 
